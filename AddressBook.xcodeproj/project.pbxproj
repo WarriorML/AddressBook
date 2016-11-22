@@ -15,6 +15,14 @@
 		027F85DB1DE3D3E5001873D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 027F85D91DE3D3E5001873D0 /* LaunchScreen.storyboard */; };
 		027F85E61DE3D3E5001873D0 /* AddressBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F85E51DE3D3E5001873D0 /* AddressBookTests.m */; };
 		027F85F11DE3D3E5001873D0 /* AddressBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F85F01DE3D3E5001873D0 /* AddressBookUITests.m */; };
+		027F86071DE3D436001873D0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 027F86061DE3D436001873D0 /* libsqlite3.tbd */; };
+		027F860A1DE3D5C5001873D0 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F86091DE3D5C5001873D0 /* People.m */; };
+		027F860D1DE3D7B8001873D0 /* ContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F860C1DE3D7B8001873D0 /* ContactVC.m */; };
+		027F86101DE3D8F7001873D0 /* DatabaseTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F860F1DE3D8F7001873D0 /* DatabaseTool.m */; };
+		027F86191DE3D96A001873D0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F86131DE3D96A001873D0 /* FMDatabase.m */; };
+		027F861A1DE3D96A001873D0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F86151DE3D96A001873D0 /* FMDatabaseAdditions.m */; };
+		027F861B1DE3D96A001873D0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 027F86171DE3D96A001873D0 /* FMResultSet.m */; };
+		027F861C1DE3D96A001873D0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 027F86181DE3D96A001873D0 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		027F85EC1DE3D3E5001873D0 /* AddressBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		027F85F01DE3D3E5001873D0 /* AddressBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressBookUITests.m; sourceTree = "<group>"; };
 		027F85F21DE3D3E5001873D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		027F86061DE3D436001873D0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		027F86081DE3D5C5001873D0 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		027F86091DE3D5C5001873D0 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		027F860B1DE3D7B8001873D0 /* ContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactVC.h; sourceTree = "<group>"; };
+		027F860C1DE3D7B8001873D0 /* ContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactVC.m; sourceTree = "<group>"; };
+		027F860E1DE3D8F7001873D0 /* DatabaseTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseTool.h; sourceTree = "<group>"; };
+		027F860F1DE3D8F7001873D0 /* DatabaseTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTool.m; sourceTree = "<group>"; };
+		027F86121DE3D96A001873D0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		027F86131DE3D96A001873D0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		027F86141DE3D96A001873D0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		027F86151DE3D96A001873D0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		027F86161DE3D96A001873D0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		027F86171DE3D96A001873D0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		027F86181DE3D96A001873D0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027F86071DE3D436001873D0 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,7 @@
 				027F85E41DE3D3E5001873D0 /* AddressBookTests */,
 				027F85EF1DE3D3E5001873D0 /* AddressBookUITests */,
 				027F85C91DE3D3E5001873D0 /* Products */,
+				027F86051DE3D436001873D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +125,17 @@
 		027F85CA1DE3D3E5001873D0 /* AddressBook */ = {
 			isa = PBXGroup;
 			children = (
+				027F86111DE3D96A001873D0 /* FMDB */,
 				027F85CE1DE3D3E5001873D0 /* AppDelegate.h */,
 				027F85CF1DE3D3E5001873D0 /* AppDelegate.m */,
 				027F85D11DE3D3E5001873D0 /* ViewController.h */,
 				027F85D21DE3D3E5001873D0 /* ViewController.m */,
+				027F86081DE3D5C5001873D0 /* People.h */,
+				027F86091DE3D5C5001873D0 /* People.m */,
+				027F860B1DE3D7B8001873D0 /* ContactVC.h */,
+				027F860C1DE3D7B8001873D0 /* ContactVC.m */,
+				027F860E1DE3D8F7001873D0 /* DatabaseTool.h */,
+				027F860F1DE3D8F7001873D0 /* DatabaseTool.m */,
 				027F85D41DE3D3E5001873D0 /* Main.storyboard */,
 				027F85D71DE3D3E5001873D0 /* Assets.xcassets */,
 				027F85D91DE3D3E5001873D0 /* LaunchScreen.storyboard */,
@@ -138,6 +169,28 @@
 				027F85F21DE3D3E5001873D0 /* Info.plist */,
 			);
 			path = AddressBookUITests;
+			sourceTree = "<group>";
+		};
+		027F86051DE3D436001873D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				027F86061DE3D436001873D0 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		027F86111DE3D96A001873D0 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				027F86121DE3D96A001873D0 /* FMDatabase.h */,
+				027F86131DE3D96A001873D0 /* FMDatabase.m */,
+				027F86141DE3D96A001873D0 /* FMDatabaseAdditions.h */,
+				027F86151DE3D96A001873D0 /* FMDatabaseAdditions.m */,
+				027F86161DE3D96A001873D0 /* FMResultSet.h */,
+				027F86171DE3D96A001873D0 /* FMResultSet.m */,
+				027F86181DE3D96A001873D0 /* LICENSE.txt */,
+			);
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027F861C1DE3D96A001873D0 /* LICENSE.txt in Resources */,
 				027F85DB1DE3D3E5001873D0 /* LaunchScreen.storyboard in Resources */,
 				027F85D81DE3D3E5001873D0 /* Assets.xcassets in Resources */,
 				027F85D61DE3D3E5001873D0 /* Main.storyboard in Resources */,
@@ -276,9 +330,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				027F86101DE3D8F7001873D0 /* DatabaseTool.m in Sources */,
+				027F860A1DE3D5C5001873D0 /* People.m in Sources */,
 				027F85D31DE3D3E5001873D0 /* ViewController.m in Sources */,
+				027F86191DE3D96A001873D0 /* FMDatabase.m in Sources */,
 				027F85D01DE3D3E5001873D0 /* AppDelegate.m in Sources */,
 				027F85CD1DE3D3E5001873D0 /* main.m in Sources */,
+				027F861B1DE3D96A001873D0 /* FMResultSet.m in Sources */,
+				027F860D1DE3D7B8001873D0 /* ContactVC.m in Sources */,
+				027F861A1DE3D96A001873D0 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +485,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEVELOPMENT_TEAM = QSRYV4Z7YN;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -437,6 +498,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				DEVELOPMENT_TEAM = QSRYV4Z7YN;
 				INFOPLIST_FILE = AddressBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
